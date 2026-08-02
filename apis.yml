@@ -1,8 +1,24 @@
 aid: wooga
-name: wooga
-description: wooga is a company surfaced as a portfolio company of balderton-capital, hv-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Wooga
+description: Wooga is a Berlin-based mobile game developer founded in 2009 and a subsidiary
+  of Playtika, specializing in story-driven casual games such as June's Journey, Ghost
+  Detective and Pearl's Peril. Wooga publishes no public API or developer portal, but
+  maintains an active open-source GitHub organization with its atlas Gradle plugin
+  suite for Unity and mobile build automation, published to the Gradle Plugin Portal
+  and RubyGems. Surfaced in the API Evangelist network as a portfolio company of
+  balderton-capital and hv-capital.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/684356?v=4
 url: https://raw.githubusercontent.com/api-evangelist/wooga/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Casual Games
+- Game Development
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.wooga.com/
+- type: Support
+  url: https://www.wooga.com/support
+- type: TermsOfService
+  url: https://www.wooga.com/legal/en-terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.wooga.com/legal/en-privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/wooga
+- type: LLMsTxt
+  url: llms/wooga-llms.txt
+- type: Packages
+  url: packages/wooga-packages.yml
+- type: WellKnown
+  url: well-known/wooga-well-known.yml
+- type: DomainSecurity
+  url: security/wooga-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

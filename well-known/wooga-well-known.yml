@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the only host in
+  apis.yml (https://www.wooga.com — Wooga publishes no API/docs/developer
+  subdomains; developers.wooga.com, api.wooga.com and docs.wooga.com do not
+  resolve). Status is the HTTP code observed at fetch time. The site returns
+  real 404s (verified against a random path), so these are honest misses. The
+  one real discovery-surface hit is /llms.txt at the site root, saved verbatim
+  under llms/wooga-llms.txt.
+hosts:
+  - host: https://www.wooga.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        type: text/plain
+        file: ../llms/wooga-llms.txt
+unresolved_hosts:
+  - https://developers.wooga.com
+  - https://api.wooga.com
+  - https://docs.wooga.com
