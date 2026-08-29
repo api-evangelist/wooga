@@ -31,6 +31,9 @@ accessModel:
   method: derived
 image: https://avatars.githubusercontent.com/u/684356?v=4
 url: https://raw.githubusercontent.com/api-evangelist/wooga/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Wooga publishes no public API or developer portal, but maintains an active open-source GitHub organization with its atlas Gradle plugin suite for Unity and mobile build automation, published to the Gr"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
