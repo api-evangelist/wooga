@@ -7,6 +7,17 @@ description: Wooga is a Berlin-based mobile game developer founded in 2009 and a
   suite for Unity and mobile build automation, published to the Gradle Plugin Portal
   and RubyGems. Surfaced in the API Evangelist network as a portfolio company of
   balderton-capital and hv-capital.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
